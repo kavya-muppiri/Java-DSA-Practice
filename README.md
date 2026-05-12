@@ -1,6 +1,6 @@
 # Java DSA Practice
 
-A collection of Java Data Structures and Algorithms practice problems and coding exercises created while learning problem-solving and core programming concepts in Java.
+A collection of Java Data Structures and Algorithms practice problems and coding exercises built while learning problem-solving and core Java programming concepts.
 
 ## Topics Covered
 
@@ -26,7 +26,7 @@ A collection of Java Data Structures and Algorithms practice problems and coding
 
 ## Purpose
 
-This repository is created to strengthen Java programming, improve problem-solving skills, and practice Data Structures and Algorithms for internships and technical interviews.
+This repository is created to practice Java programming, strengthen problem-solving skills, and build a strong foundation in Data Structures and Algorithms for internships, coding practice, and technical interview preparation.
 
 ## Repository Structure
 
@@ -46,3 +46,12 @@ Strings/
 OOPs/
 Recursion-Basics/
 ```
+
+## Future Updates
+
+- More DSA topics and coding problems will be added regularly.
+- Repository will be continuously updated with advanced DSA concepts and optimized solutions.
+
+## Author
+
+Kavya
