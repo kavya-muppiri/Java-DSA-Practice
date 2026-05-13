@@ -1,21 +1,19 @@
-class ReverseArray{
-    public static int[] reverse(int numbers[]){
-        int start=0;
-        int last=numbers.length-1;
+public class ReverseArray{
+    public static void reverse(int numbers[]){
+        int start=0,last=numbers.length-1;
         while(start<last){
-            int temp=numbers[start];
-            numbers[start]=numbers[last];
-            numbers[last]=temp;
+            int temp=numbers[last];
+            numbers[last]=numbers[start];
+            numbers[start]=temp;
             start++;
             last--;
         }
-        return numbers;
     }
-    public static void main(String[] args) {
-        int numbers[]={2,3,4,5,8,9,10};
-        int result[]=reverse(numbers);
-        for( int i=0;i<numbers.length;i++){
-            System.out.print(numbers[i]+" , ");
+    public static void main(String args[]){
+        int numbers[]={2,4,6,8,10};
+        reverse(numbers);
+        for(int i=0;i<=numbers.length-1;i++){
+            System.out.print(numbers[i]+" ");
         }
     }
 }
